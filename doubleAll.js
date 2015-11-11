@@ -1,3 +1,5 @@
+"use strict";
+
 function doubleAll(numbers) {
   var result = numbers.map(function(num){
   	return num * 2;

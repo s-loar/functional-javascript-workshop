@@ -1,4 +1,5 @@
 "use strict";
+
 function repeat(operation, num) {
  	if (num > 0) {
  		repeat(operation, --num)
@@ -6,5 +7,5 @@ function repeat(operation, num) {
  	}
 }
     
-	// Do not remove the line below
-  module.exports = repeat
+// Do not remove the line below
+module.exports = repeat
